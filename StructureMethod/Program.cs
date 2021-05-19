@@ -22,11 +22,11 @@ namespace StructureMethod
 
         public void display()
         {
-            Console.WriteLine("Title : {0}", title);
-            Console.WriteLine("Driver : {0}", driver);
-            Console.WriteLine("Nationality : {0}", nationality);
-            Console.WriteLine("Constructor : {0}", constructor);
-            Console.WriteLine("Podium : {0}", podium);
+            Console.WriteLine($"Title : {title}");
+            Console.WriteLine($"Driver : {driver}");
+            Console.WriteLine($"Nationality : {nationality}");
+            Console.WriteLine($"Constructor : {constructor}");
+            Console.WriteLine($"Title : {podium}");
         }
     }
 
