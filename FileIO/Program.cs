@@ -77,6 +77,7 @@ namespace FileIO
             Console.ReadKey();
             */
 
+            /*
             // Demo 05 : Copy File
             string path = @"D:\ExamData.txt";
             string copypath = @"D:\NewData.txt";
@@ -87,7 +88,7 @@ namespace FileIO
             }
             catch (IOException ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("File I/O Not Success!!");
             }
             catch (Exception ex)
             {
@@ -96,6 +97,19 @@ namespace FileIO
             finally {
                 Console.ReadKey();
             }
+            */
+
+            // Demo 06 : Write File
+
+            string path = @"D:\NewData.txt";
+            string[] teams = { "Liverpool", "Lester City", "Arsenal", "Manchester City" };
+
+            File.WriteAllLines(path, teams);
+
+            string readText = File.ReadAllText(path);
+            Console.WriteLine(readText);
+
+            Console.ReadKey();
         }
     }
 }
