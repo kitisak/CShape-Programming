@@ -41,10 +41,11 @@ namespace FileIO
             }
             */
 
+            /*
             // Demo 03 : File.ReadAllBytes
             string path = @"D:\ExamData.txt";
             byte[] bytes;
-
+            
             try
             {
                 bytes = File.ReadAllBytes(path);
@@ -63,6 +64,16 @@ namespace FileIO
             {
                 Console.ReadKey();
             }
+            */
+
+            // Demo 04 : File.ReadAllText
+            string path = @"D:\ExamData.txt";
+            string alltext;
+
+            alltext = File.ReadAllText(path);
+            Console.WriteLine(alltext);
+
+            Console.ReadKey();
 
         }
     }
