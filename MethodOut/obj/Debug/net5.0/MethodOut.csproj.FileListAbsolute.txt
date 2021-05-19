@@ -1,0 +1,16 @@
+C:\CShape\CSProgramming\MethodOut\bin\Debug\net5.0\MethodOut.exe
+C:\CShape\CSProgramming\MethodOut\bin\Debug\net5.0\MethodOut.deps.json
+C:\CShape\CSProgramming\MethodOut\bin\Debug\net5.0\MethodOut.runtimeconfig.json
+C:\CShape\CSProgramming\MethodOut\bin\Debug\net5.0\MethodOut.runtimeconfig.dev.json
+C:\CShape\CSProgramming\MethodOut\bin\Debug\net5.0\MethodOut.dll
+C:\CShape\CSProgramming\MethodOut\bin\Debug\net5.0\ref\MethodOut.dll
+C:\CShape\CSProgramming\MethodOut\bin\Debug\net5.0\MethodOut.pdb
+C:\CShape\CSProgramming\MethodOut\obj\Debug\net5.0\MethodOut.csprojAssemblyReference.cache
+C:\CShape\CSProgramming\MethodOut\obj\Debug\net5.0\MethodOut.GeneratedMSBuildEditorConfig.editorconfig
+C:\CShape\CSProgramming\MethodOut\obj\Debug\net5.0\MethodOut.AssemblyInfoInputs.cache
+C:\CShape\CSProgramming\MethodOut\obj\Debug\net5.0\MethodOut.AssemblyInfo.cs
+C:\CShape\CSProgramming\MethodOut\obj\Debug\net5.0\MethodOut.csproj.CoreCompileInputs.cache
+C:\CShape\CSProgramming\MethodOut\obj\Debug\net5.0\MethodOut.dll
+C:\CShape\CSProgramming\MethodOut\obj\Debug\net5.0\ref\MethodOut.dll
+C:\CShape\CSProgramming\MethodOut\obj\Debug\net5.0\MethodOut.pdb
+C:\CShape\CSProgramming\MethodOut\obj\Debug\net5.0\MethodOut.genruntimeconfig.cache

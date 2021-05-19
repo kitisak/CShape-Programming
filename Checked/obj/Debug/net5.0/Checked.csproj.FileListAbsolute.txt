@@ -1,0 +1,16 @@
+C:\CShape\CSProgramming\Checked\bin\Debug\net5.0\Checked.exe
+C:\CShape\CSProgramming\Checked\bin\Debug\net5.0\Checked.deps.json
+C:\CShape\CSProgramming\Checked\bin\Debug\net5.0\Checked.runtimeconfig.json
+C:\CShape\CSProgramming\Checked\bin\Debug\net5.0\Checked.runtimeconfig.dev.json
+C:\CShape\CSProgramming\Checked\bin\Debug\net5.0\Checked.dll
+C:\CShape\CSProgramming\Checked\bin\Debug\net5.0\ref\Checked.dll
+C:\CShape\CSProgramming\Checked\bin\Debug\net5.0\Checked.pdb
+C:\CShape\CSProgramming\Checked\obj\Debug\net5.0\Checked.csprojAssemblyReference.cache
+C:\CShape\CSProgramming\Checked\obj\Debug\net5.0\Checked.GeneratedMSBuildEditorConfig.editorconfig
+C:\CShape\CSProgramming\Checked\obj\Debug\net5.0\Checked.AssemblyInfoInputs.cache
+C:\CShape\CSProgramming\Checked\obj\Debug\net5.0\Checked.AssemblyInfo.cs
+C:\CShape\CSProgramming\Checked\obj\Debug\net5.0\Checked.csproj.CoreCompileInputs.cache
+C:\CShape\CSProgramming\Checked\obj\Debug\net5.0\Checked.dll
+C:\CShape\CSProgramming\Checked\obj\Debug\net5.0\ref\Checked.dll
+C:\CShape\CSProgramming\Checked\obj\Debug\net5.0\Checked.pdb
+C:\CShape\CSProgramming\Checked\obj\Debug\net5.0\Checked.genruntimeconfig.cache
