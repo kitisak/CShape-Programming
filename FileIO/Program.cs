@@ -113,13 +113,40 @@ namespace FileIO
             Console.ReadKey();
             */
 
+            /*
             // Demo 07 : Delete File
             string path = @"D:\NewData.txt";
 
             File.Delete(path);
 
             Console.ReadKey();
-               
+            */
+
+            // Demo 08 : FileStream
+
+            FileStream myFile = new FileStream("TestData.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+
+            try
+            {
+                for (int i = 1; i <= 10; i++)
+                {
+                    myFile.WriteByte((byte)i);
+                }
+
+                myFile.Position = 0;
+                for (int i = 1; i <= 10; i++)
+                {
+                    Console.WriteLine(myFile.ReadByte());
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.Write(ex.Message);
+            }
+            finally {
+                myFile.Close();
+                Console.ReadKey();
+            }
         }
     }
 }
