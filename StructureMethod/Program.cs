@@ -4,11 +4,11 @@ namespace StructureMethod
 {
     struct Teams
     {
-        public string title;
-        public string driver;
-        public string nationality;
-        public string constructor;
-        public int podium;
+        private string title;
+        private string driver;
+        private string nationality;
+        private string constructor;
+        private int podium;
 
         public void getValues(string strTitle, string strDriver, string strNationality,
             string strConstructor, int intPodium)
@@ -19,8 +19,8 @@ namespace StructureMethod
             constructor = strConstructor;
             podium = intPodium;
         }
-        
-        public void disply()
+
+        public void display()
         {
             Console.WriteLine("Title : {0}", title);
             Console.WriteLine("Driver : {0}", driver);
@@ -28,14 +28,18 @@ namespace StructureMethod
             Console.WriteLine("Constructor : {0}", constructor);
             Console.WriteLine("Podium : {0}", podium);
         }
-
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Teams f1 = new Teams();
+
+            f1.getValues("Redbull Racing", "Alex Alborn", "Thailand", "Honda", 2);
+            f1.display();
+
+            Console.ReadKey();
         }
     }
 }
