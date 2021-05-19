@@ -66,6 +66,7 @@ namespace FileIO
             }
             */
 
+            /*
             // Demo 04 : File.ReadAllText
             string path = @"D:\ExamData.txt";
             string alltext;
@@ -74,7 +75,27 @@ namespace FileIO
             Console.WriteLine(alltext);
 
             Console.ReadKey();
+            */
 
+            // Demo 05 : Copy File
+            string path = @"D:\ExamData.txt";
+            string copypath = @"D:\NewData.txt";
+
+            try
+            {
+                File.Copy(path, copypath);
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally {
+                Console.ReadKey();
+            }
         }
     }
 }
