@@ -99,6 +99,7 @@ namespace FileIO
             }
             */
 
+            /*
             // Demo 06 : Write File
 
             string path = @"D:\NewData.txt";
@@ -110,6 +111,15 @@ namespace FileIO
             Console.WriteLine(readText);
 
             Console.ReadKey();
+            */
+
+            // Demo 07 : Delete File
+            string path = @"D:\NewData.txt";
+
+            File.Delete(path);
+
+            Console.ReadKey();
+               
         }
     }
 }
