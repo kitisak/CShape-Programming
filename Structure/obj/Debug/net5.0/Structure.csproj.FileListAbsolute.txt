@@ -1,0 +1,15 @@
+C:\CShape\CSProgramming\Structure\bin\Debug\net5.0\Structure.exe
+C:\CShape\CSProgramming\Structure\bin\Debug\net5.0\Structure.deps.json
+C:\CShape\CSProgramming\Structure\bin\Debug\net5.0\Structure.runtimeconfig.json
+C:\CShape\CSProgramming\Structure\bin\Debug\net5.0\Structure.runtimeconfig.dev.json
+C:\CShape\CSProgramming\Structure\bin\Debug\net5.0\Structure.dll
+C:\CShape\CSProgramming\Structure\bin\Debug\net5.0\ref\Structure.dll
+C:\CShape\CSProgramming\Structure\bin\Debug\net5.0\Structure.pdb
+C:\CShape\CSProgramming\Structure\obj\Debug\net5.0\Structure.GeneratedMSBuildEditorConfig.editorconfig
+C:\CShape\CSProgramming\Structure\obj\Debug\net5.0\Structure.AssemblyInfoInputs.cache
+C:\CShape\CSProgramming\Structure\obj\Debug\net5.0\Structure.AssemblyInfo.cs
+C:\CShape\CSProgramming\Structure\obj\Debug\net5.0\Structure.csproj.CoreCompileInputs.cache
+C:\CShape\CSProgramming\Structure\obj\Debug\net5.0\Structure.dll
+C:\CShape\CSProgramming\Structure\obj\Debug\net5.0\ref\Structure.dll
+C:\CShape\CSProgramming\Structure\obj\Debug\net5.0\Structure.pdb
+C:\CShape\CSProgramming\Structure\obj\Debug\net5.0\Structure.genruntimeconfig.cache
