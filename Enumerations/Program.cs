@@ -27,8 +27,7 @@ namespace Enumerations
             Console.WriteLine("Thursday : {0}", Days.Thursday);
             Console.WriteLine("Friday : {0}", Days.Friday);
             Console.WriteLine("Saturday : {0}", Days.Saturday);
-            Console.ReadKey();
-
+          
             Console.WriteLine("---------------------------------------------");
 
             Console.WriteLine("Sunday : {0}", (int)MyDays.Sunday);
@@ -40,6 +39,7 @@ namespace Enumerations
             Console.WriteLine("Saturday : {0}", (int)MyDays.Saturday);
 
             Console.WriteLine("---------------------------------------------");
+            Console.ReadKey();
 
             /*
           int WeekDateStart = (int)Days.Monday;
