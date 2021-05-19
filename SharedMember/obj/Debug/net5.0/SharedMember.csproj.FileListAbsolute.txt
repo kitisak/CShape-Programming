@@ -1,0 +1,16 @@
+C:\CShape\CSProgramming\SharedMember\bin\Debug\net5.0\SharedMember.exe
+C:\CShape\CSProgramming\SharedMember\bin\Debug\net5.0\SharedMember.deps.json
+C:\CShape\CSProgramming\SharedMember\bin\Debug\net5.0\SharedMember.runtimeconfig.json
+C:\CShape\CSProgramming\SharedMember\bin\Debug\net5.0\SharedMember.runtimeconfig.dev.json
+C:\CShape\CSProgramming\SharedMember\bin\Debug\net5.0\SharedMember.dll
+C:\CShape\CSProgramming\SharedMember\bin\Debug\net5.0\ref\SharedMember.dll
+C:\CShape\CSProgramming\SharedMember\bin\Debug\net5.0\SharedMember.pdb
+C:\CShape\CSProgramming\SharedMember\obj\Debug\net5.0\SharedMember.csprojAssemblyReference.cache
+C:\CShape\CSProgramming\SharedMember\obj\Debug\net5.0\SharedMember.GeneratedMSBuildEditorConfig.editorconfig
+C:\CShape\CSProgramming\SharedMember\obj\Debug\net5.0\SharedMember.AssemblyInfoInputs.cache
+C:\CShape\CSProgramming\SharedMember\obj\Debug\net5.0\SharedMember.AssemblyInfo.cs
+C:\CShape\CSProgramming\SharedMember\obj\Debug\net5.0\SharedMember.csproj.CoreCompileInputs.cache
+C:\CShape\CSProgramming\SharedMember\obj\Debug\net5.0\SharedMember.dll
+C:\CShape\CSProgramming\SharedMember\obj\Debug\net5.0\ref\SharedMember.dll
+C:\CShape\CSProgramming\SharedMember\obj\Debug\net5.0\SharedMember.pdb
+C:\CShape\CSProgramming\SharedMember\obj\Debug\net5.0\SharedMember.genruntimeconfig.cache
