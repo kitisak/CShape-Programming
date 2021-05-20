@@ -1,0 +1,7 @@
+C:\CShape\CSProgramming\OOP\obj\Debug\net5.0-windows\OOP.csprojAssemblyReference.cache
+C:\CShape\CSProgramming\OOP\obj\Debug\net5.0-windows\OOP.Form1.resources
+C:\CShape\CSProgramming\OOP\obj\Debug\net5.0-windows\OOP.csproj.GenerateResource.cache
+C:\CShape\CSProgramming\OOP\obj\Debug\net5.0-windows\OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\CShape\CSProgramming\OOP\obj\Debug\net5.0-windows\OOP.AssemblyInfoInputs.cache
+C:\CShape\CSProgramming\OOP\obj\Debug\net5.0-windows\OOP.AssemblyInfo.cs
+C:\CShape\CSProgramming\OOP\obj\Debug\net5.0-windows\OOP.csproj.CoreCompileInputs.cache
