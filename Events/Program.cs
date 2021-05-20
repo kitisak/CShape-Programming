@@ -1,13 +1,16 @@
 using System;
 
+// Declar Delegate
 public delegate void OnBoardF1TeamHandler(object sender, EventArgs e);
 
 namespace Events
 {
     public class F1Event
     {
+        //Declar Events
         public event OnBoardF1TeamHandler OnBoardTeamEvent;
 
+        //Method
         public void OnBoardF1TeamEvent()
         {
             if (OnBoardTeamEvent != null)
