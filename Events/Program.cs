@@ -11,7 +11,7 @@ namespace Events
             string[] teams = { "Mercides", "Redbull", "Alpine", "Ferrari" };
 
             F1Event f1 = new F1Event();
-            f1.OnBoardF1TeamEvent += new OnBoardF1TeamHandler(callback);
+            f1.OnBoardTeamEvent += new OnBoardF1TeamHandler(callback);
 
             Random random = new Random();
 
@@ -21,7 +21,7 @@ namespace Events
             {
                 int rd = random.Next(teams.Length);
 
-                Console.WriteLine("Grandprix " i);
+                Console.WriteLine("Grandprix " + i);
 
                 if (teams[rd] == "Redbull" || teams[rd] == "Mercides")
                 {
@@ -38,11 +38,11 @@ namespace Events
 
     public class F1Event
     {
-        public event OnBoardF1TeamHandler TeamF1Event;
+        public event OnBoardF1TeamHandler OnBoardTeamEvent;
 
         public void OnBoardF1TeamEvent() {
-            if (TeamF1Event != null)
-                TeamF1Event(this, EventArgs.Empty);
+            if (OnBoardTeamEvent != null)
+                OnBoardTeamEvent(this, EventArgs.Empty);
         }
     }
 }
