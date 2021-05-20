@@ -53,6 +53,18 @@ namespace Indexer
             Console.WriteLine("Complete.");
             Console.ReadKey();
             */
+
+            // Demo 02 - Indexers call method
+            var week = new DayCollection();
+            Console.WriteLine(week["Friday"]);
+
+            try
+            {
+                Console.WriteLine(week["Wroking Day"]);
+            } catch (ArgumentOutOfRangeException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
