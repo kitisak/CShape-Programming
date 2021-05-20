@@ -17,11 +17,37 @@ namespace OverloadOperation
 
         public void Display()
         {
-            Console.WriteLine("{0} {1}", myInt1, myInt2);
-            Console.ReadKey();
+            Console.WriteLine("{0} {1}", myInt1, myInt2);          
+        }
+
+        // Overload Operator
+        public static ComplexNumber operator +(ComplexNumber myComplex1, ComplexNumber myComplex2)
+        {
+            ComplexNumber temp = new ComplexNumber();
+            temp.myInt1 = myComplex1.myInt1 + myComplex2.myInt1;
+            temp.myInt2 = myComplex1.myInt2 + myComplex2.myInt2;
+
+            return temp;
+        }
+
+        public static ComplexNumber operator -(ComplexNumber myComplex1, ComplexNumber myComplex2)
+        {
+            ComplexNumber temp = new ComplexNumber();
+            temp.myInt1 = myComplex1.myInt1 - myComplex2.myInt1;
+            temp.myInt2 = myComplex1.myInt2 - myComplex2.myInt2;
+
+            return temp;
+        }
+
+        public static ComplexNumber operator *(ComplexNumber myComplex1, ComplexNumber myComplex2)
+        {
+            ComplexNumber temp = new ComplexNumber();
+            temp.myInt1 = myComplex1.myInt1 * myComplex2.myInt1;
+            temp.myInt2 = myComplex1.myInt2 * myComplex2.myInt2;
+
+            return temp;
         }
     }
-
 
     class Program
     {
@@ -29,6 +55,15 @@ namespace OverloadOperation
         {
             ComplexNumber myComplex1 = new ComplexNumber(50, 100);
             myComplex1.Display();
+
+            ComplexNumber myComplex2 = new ComplexNumber(5, 10);
+            myComplex2.Display();
+
+            ComplexNumber myResult = new ComplexNumber();
+            myResult = myComplex1 + myComplex2;
+            myResult.Display();
+
+            Console.ReadKey();
         }
     }
 }
