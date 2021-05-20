@@ -19,10 +19,27 @@ namespace Indexer
         }
     }
 
+    public class DayCollection {
+        string[] days = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
+
+        private int FindDay(string day) {
+            for (int j = 0; j < days.Length; j++) {
+                if (days[j] == day) {
+                    return j;
+                }
+            }
+            throw new ArgumentOutOfRangeException(nameof(day), $"Day {day} is not support.");
+        } 
+
+        public int this[string day] => FindDay(day);
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            /*
+            // Demo 01 - Indexers
             var tempRecord = new TempRecord();
 
             tempRecord[3] = 45.5F;
@@ -35,6 +52,7 @@ namespace Indexer
 
             Console.WriteLine("Complete.");
             Console.ReadKey();
+            */
         }
     }
 }
