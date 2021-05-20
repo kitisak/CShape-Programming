@@ -23,7 +23,18 @@ namespace Indexer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var tempRecord = new TempRecord();
+
+            tempRecord[3] = 45.5F;
+            tempRecord[4] = 55.3F;
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Element #{i} = {tempRecord[i]}");
+            }
+
+            Console.WriteLine("Complete.");
+            Console.ReadKey();
         }
     }
 }
