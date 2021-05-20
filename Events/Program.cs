@@ -4,6 +4,16 @@ public delegate void OnBoardF1TeamHandler(object sender, EventArgs e);
 
 namespace Events
 {
+    public class F1Event
+    {
+        public event OnBoardF1TeamHandler OnBoardTeamEvent;
+
+        public void OnBoardF1TeamEvent()
+        {
+            if (OnBoardTeamEvent != null)
+                OnBoardTeamEvent(this, EventArgs.Empty);
+        }
+    }
     public class Program
     {
         public static void Main(string[] args)
@@ -23,7 +33,7 @@ namespace Events
 
                 Console.WriteLine("Grandprix " + i);
 
-                if (teams[rd] == "Redbull" || teams[rd] == "Mercides")
+                if (teams[rd] == "Redbull")
                 {
                     f1.OnBoardF1TeamEvent();
                 }
@@ -36,13 +46,5 @@ namespace Events
         }
     }
 
-    public class F1Event
-    {
-        public event OnBoardF1TeamHandler OnBoardTeamEvent;
-
-        public void OnBoardF1TeamEvent() {
-            if (OnBoardTeamEvent != null)
-                OnBoardTeamEvent(this, EventArgs.Empty);
-        }
-    }
+   
 }
